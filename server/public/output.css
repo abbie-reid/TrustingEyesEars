@@ -62,6 +62,11 @@ html,
 */
 
 body {
+  background-color: rgb(209, 173, 250);
+  background-repeat: no-repeat;
+  background-image:url("Background.jpg");
+  background-position: center;
+  background-size:cover;
   margin: 0;
   /* 1 */
   line-height: inherit;
