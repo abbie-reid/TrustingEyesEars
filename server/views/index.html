@@ -62,7 +62,6 @@
     </style>
   </head>
   <body class="flex flex-col min-h-screen">
-
     <nav class="bg-lilac px-4 py-4 flex items-center justify-between text-lg gap-x-8">
       <a class="flex cursor-default items-center gap-x-1">
         <img width="36" height="36" class="object-cover" src="logo.png" alt="logo" />
@@ -85,31 +84,37 @@
 
     <div class="text-center text-black p-24 mb-16">
       <h1 class="mb-4 font-main font-black text-6xl">Introducing, PicTrust</h1>
-      <h3 class="font-secondary">a reliable, image verification system</h3>
+      <h3 class="font-bold text-m">A reliable, image verification system</h3>
     </div>
+    <div class="text-center text-black p-13 mb-16">
+      <h3 class="py-5 text-m">With PicTrust, you can effortlessly upload your image and confirm its authenticity with ease.</h3>
+      <h3 class="py-2"><p class=" font-bold text-m">To upload an image:</p> Login and access the upload tab. Follow the prompts to select and upload your image. This process verifies the image and registers it under your name. </h3>
+      <h3 class="py-2"><p class=" font-bold text-m">To verify an image:</p> Navigate to the verification page and upload the image you wish to authenticate. The system will assess the image's authenticity and provide its verification status.</h3>     
+
     <main class="flex flex-col mt-24 mb-24 space-y-16 flex-grow ">
       <table class="text-center text-purple text-lg table-fixed">
+      <tr>
+      <td style="width:33%;">
+      <i class="fa-regular fa-xl fa-square-check text-dgreen "></i>
+      <p class="py-3 font-bold">Verified</p>
+      <p> This image has been verified as authentic and</p>
+      <p> unaltered, making it safe for use.</p>
+      </td>
+      <td style="width:33%;">
+      <i class="fa-solid fa-xl fa-square-xmark text-red"></i>
+      <p class= "py-3 font-bold">Tampered</p>
+      <p> This image has been altered, so exercise</p>
+      <p> caution when using it.</p>
+      </td>
+      <td style="width:33%;">
+      <i class="fa-regular fa-xl fa-circle-question" style="color: #F9DC5C;"></i>
+      
+      <p class= "py-3 font-bold">Unknown</p>
+      <p> This image has not been registered with us,</p>
+      <p> therefore it's owners and origin are unknown.</p>
+      </td>
+      </tr>
 
-        <tr>
-          <td style="width:33%;">
-            <i class="fa-regular fa-xl fa-square-check text-dgreen"></i>
-            <p>___</p>
-            <p>Verified</p>
-            <p>This image has been verified as authentic and unaltered, making it safe for use.</p>
-          </td>
-          <td style="width:33%;">
-            <i class="fa-solid fa-xl fa-square-xmark text-red"></i>
-            <p>___</p>
-            <p>Tampered</p>
-            <p>This image has been altered, so exercise caution when using it.</p>
-          </td>
-          <td style="width:33%;">
-            <i class="fa-regular fa-xl fa-circle-question" style="color: #F9DC5C;"></i>
-            <p>___</p>
-            <p>Unknown</p>
-            <p>This image has not been registered with us, therefore its owners and origin are unknown.</p>
-          </td>
-        </tr>
       </table>
     </main>
 
