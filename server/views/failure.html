@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PicTrust - Verify</title>
+    <title>PicTrust</title>
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,13 +18,10 @@
     </a>
     <ul class="flex items-center gap-x-6">
       <li class="block">
-        <a href="/" class="cursor-pointer font-secondary font-bold font-md text-purple other hover:underline">Home</a>
+        <a href="/" class="cursor-pointer font-secondary font-md text-purple hover:underline">Home</a>
       </li>
       <li class="block">
-        <a href="/upload"  class="cursor-pointer text-purple font-bold font-secondary other hover:underline">Upload</a>
-      </li>
-      <li class="block">
-        <a href="/verify" id="current" class="cursor-pointer font-bold font-secondary font-md text-purple other underline">Verify</a>
+        <a href="/upload" class="cursor-pointer text-purple font-secondary hover:underline">Upload</a>
       </li>
     </ul>
       <div class="flex items-center gap-x-2">
@@ -37,23 +34,10 @@
       </div>
 
   </nav>
-    <main class="flex flex-col mt-24 mb-24 space-y-16 flex-grow ">
-      <div class="text-center text-red">
-        <h1 class="mb-4 font-main font-black text-6xl">Upload an image</h1>
-
-        <h3 class="font-bold">to check if it's verified with us</h3>
-
-    
-      <div class="m-auto">
-        <form action="/verify" method="POST" enctype="multipart/form-data" class="w-[60vw] max-w-screen-md py-6 px-4 rounded-md bg-red">
-          <input type="file" name="file" id="fileUpload" accept="image/*" style="display:none;"/>
-          <img id="image" class="" style="max-width: 600px; max-height: 400px;"/>
-          
-          <div id="uploadButtons" class="flex flex-row justify-center">
-            <input id="uploadButton" type="button" value="Browse" class="bg-llgreen text-purple font-secondary rounded-sm p-2 text-lg hover:bg-lgreen"/>
-            <input id="submitButton" type="submit" value="Upload" class="hidden bg-llgreen text-purple font-secondary p-2 font-bold rounded-sm  text-lg hover:bg-lgreen"/>
-          </div>
-        </form>
+    <main class="flex flex-col justify-center flex-grow">
+      <div class="text-center text-red relative bottom-16">
+        <h1 class="mb-4 font-main font-black text-6xl">Image Registration Failed!</h1>
+        <h3 class="font-secondary">please click <a href="/upload" class="nounderline text-blue hover:underline">here</a> to try again</h3>
       </div>
     </main>
   
@@ -68,9 +52,6 @@
           </svg>
       </a>  
     </footer>
-    
-    
-    <script src="upload.js"></script>
   </body>
 </html>
 
