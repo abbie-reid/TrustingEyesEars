@@ -777,6 +777,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-13 {
+  padding: 2rem;
+}
+
 .p-3 {
   padding-top:50px;
 }
@@ -799,10 +803,12 @@ video {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.py-3 {
+  padding-top: 0.5rem;
+ }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-2 {
+  padding-bottom: 0.5rem;
 }
 
 .py-6 {
@@ -813,6 +819,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-5{
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
 }
 
 .text-left {
@@ -834,6 +845,14 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-m {
+  font-size: 1.25rem;
+}
+
+.text-s {
+  font-size: 0.75rem
 }
 
 .text-6xl {
