@@ -324,7 +324,7 @@
 
 
     // Link script to FontAwsome kit
-    script.src = 'https://kit.fontawesome.com/7dfc14ad36.js';
+    script.src = 'https://kit.fontawesome.com/78ee7c7176.js';
     // ...and append it to the head of the webpage
     document.getElementsByTagName('head')[0].appendChild(script);
 })();
