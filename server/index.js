@@ -76,7 +76,6 @@ const storage = multer.diskStorage({
 const upload = multer({
 	storage: storage,
 	fileFilter: (req, file, cb) => {
-		console.log("asdfsdfsfsdfassd\nsdfasdas");
 		// Accept only images
 		if (!file.originalname.match(/\.(jpg|jpeg|png|gif|avif)$/)) {
 			req.fileValidationError = "Image file required";
