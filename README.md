@@ -1,4 +1,13 @@
 # TrustingEyesEars
+
+## SECURITY notice
+### This is a study project, use at your own risk.
+A Font Awesome kit, present in this userscript as a source tag, keeps a record of its ‘Pageviews’, 
+which is a list of all the domains from which the kit was loaded by a source tag. 
+This means that we, as the particular Font Awesome's account owners, can view all the domains that someone running our userscript visits. 
+
+---
+
 To run:
 
 <code>cd server</code>
