@@ -28,3 +28,7 @@ Create .env file in /server and write this in it (replacing {} for actual passwo
 
 <code>DB_PASSWORD={}</code>
 
+###### Note: 
+This did not come through much in our reports, and it's a minor detail, 
+but it should be known our userscript **ignores images below a size of 112 by 112 pixels** (an experimentally derived value).
+
